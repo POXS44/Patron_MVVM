@@ -16,5 +16,14 @@ public class AlCuadradoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alcuadrado);
+
+        configView();
+    }
+
+    private void configView(){
+        tvAlcuadrado = findViewById(R.id.tvAlcuardado);
+        etAlcuadrado = findViewById(R.id.edAlcuadrado);
+        btAlcuadrado = findViewById(R.id.btCalcular);
+
     }
 }
